@@ -1,6 +1,12 @@
 codebook
 =================
 
+2 new columns(variables) have been added:
+
+* SubjectNum : Factor variable from 1-30 indicating a particular subject.
+* actionLabel : Factor variable indicating the name of the action performed by the subject. levels : LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS.
+
+
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
 Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
